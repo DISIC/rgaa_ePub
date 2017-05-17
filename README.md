@@ -3,10 +3,10 @@
 ## Sommaire
 
 - [Introduction](#introduction)
-- [Les dispositifs techniques pour accéder aux contenus](#les-dispositifs-techniques-pour-acc-der-aux-contenus)
-- [Le RGAA et les documents en téléchargement](#le-rgaa-et-les-documents-en-t-l-chargement)
-- [À qui s’adressent ces guides ?](#qui-s-adressent-ces-guides)
-- [Présentation des guides](#pr-sentation-des-guides)
+- [Les dispositifs techniques pour accéder aux contenus](#les-dispositifs-techniques-pour-accéder-aux-contenus)
+- [Le RGAA et les documents en téléchargement](#le-rgaa-et-les-documents-en-téléchargement)
+- [À qui s’adressent ces guides ?](#À-qui-sadressent-ces-guides)
+- [Présentation des guides](#présentation-des-guides)
 - [Licence](#licence)
 
 ## Introduction
