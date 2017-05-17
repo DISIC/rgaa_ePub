@@ -2,27 +2,31 @@
 
 ## Sommaire
 
+<!-- MarkdownTOC depth="4" -->
+
 - [Introduction](#introduction)
-- [Présentation générale de Tobi](#pr-sentation-g-n-rale-de-tobi)
+- [Présentation générale de Tobi](#pr%C3%A9sentation-g%C3%A9n%C3%A9rale-de-tobi)
 - [Installation](#installation)
-- [L'interface de Tobi](#l-interface-de-tobi)
+- [L'interface de Tobi](#linterface-de-tobi)
 - [Importer un document DAISY ou EPUB](#importer-un-document-daisy-ou-epub)
 - [Naviguer dans le texte](#naviguer-dans-le-texte)
 - [Modifier du texte](#modifier-du-texte)
-- [Modifier la structure d'un document](#modifier-la-structure-d-un-document)
-- [Créer, modifier et synchroniser une version audio](#cr-er-modifier-et-synchroniser-une-version-audio)
-    - [Écouter la version audio](#couter-la-version-audio)
-    - [Produire une version audio](#produire-une-version-audio)
-        - [En utilisant un logiciel de voix de synthèse](#en-utilisant-un-logiciel-de-voix-de-synth-se)
-        - [En important des fichiers existants](#en-important-des-fichiers-existants)
-        - [En l'enregistrant "en direct"](#en-l-enregistrant-en-direct)
-            - [Enregistrement simple](#enregistrement-simple)
-            - [Enregistrement continu](#enregistrement-continu)
-    - [Modifier la version audio](#modifier-la-version-audio)
+- [Modifier la structure d'un document](#modifier-la-structure-dun-document)
+- [Créer, modifier et synchroniser une version audio](#cr%C3%A9er-modifier-et-synchroniser-une-version-audio)
+	- [Écouter la version audio](#%C3%89couter-la-version-audio)
+	- [Produire une version audio](#produire-une-version-audio)
+		- [En utilisant un logiciel de voix de synthèse](#en-utilisant-un-logiciel-de-voix-de-synth%C3%A8se)
+		- [En important des fichiers existants](#en-important-des-fichiers-existants)
+		- [En l'enregistrant "en direct"](#en-lenregistrant-en-direct)
+			- [Enregistrement simple](#enregistrement-simple)
+			- [Enregistrement continu](#enregistrement-continu)
+	- [Modifier la version audio](#modifier-la-version-audio)
 - [Exporter le projet](#exporter-le-projet)
 - [Avant de publier le document](#avant-de-publier-le-document)
-- [Ressources externes et références](#ressources-externes-et-r-f-rences)
+- [Ressources externes et références](#ressources-externes-et-r%C3%A9f%C3%A9rences)
 - [Licence](#licence)
+
+<!-- /MarkdownTOC -->
 
 ## Introduction
 Ce guide présente une solution permettant de produire des documents au format EPUB avec le logiciel Tobi. Il s'adresse aux personnes qui souhaitent produire des documents accessibles au format EPUB 3.0.1, en version audio avec texte synchronisé ou texte seulement. La production d'une version audio peut se baser sur des fichiers pré-enregistrés par un narrateur ou bien utiliser un logiciel de synthèse vocale. L'intérêt de Tobi réside dans la possibilité de synchroniser le texte et la version audio correspondante, afin d'obtenir des documents de haute qualité&nbsp;: cet usage peut s'avérer pertinent pour des ressources pérennes, pour lesquelles le fait d'avoir une narration au format audio constitue un facteur important d'acceptabilité pour le public cible. Il peut s'agir par exemple de documents à vocation culturelle (catalogue d'exposition), éducative (livre jeunesse), etc.
@@ -69,7 +73,7 @@ Pré-requis&nbsp;:
 * Java version 7 ou supérieure doit être installé sur le système
 
 
-Tobi utilise le programme DAISY Pipeline pour ses fonctionnalités d'export au format EPUB. Pour installer DAISY Pipeline 2&nbsp,:
+Tobi utilise le programme DAISY Pipeline pour ses fonctionnalités d'export au format EPUB. Pour installer DAISY Pipeline 2&nbsp;:
 
 * Télécharger la version correspondant au système cible
 * Sous Linux et Mac OS X, créer un répertoire et y décompresser l'archive ZIP téléchargée. Sous Windows, exécuter le programme téléchargé.
@@ -124,7 +128,7 @@ Il est possible de rejoindre des éléments liés à partir du texte (par exempl
 * La commande "folow link" (Ctrl+L) permet de se déplacer vers l'élément référence (note, cible d'une ancre, etc.)
 * La commande "Go back to link" (Ctrl+Maj+L) permet de revenir à l'élément d'origine
 
-Dans la structure arborescente du document, on peut faire apparaître ou cacher les éléments contenus dans un élément de niveau plus élevé&nbsp,;:
+Dans la structure arborescente du document, on peut faire apparaître ou cacher les éléments contenus dans un élément de niveau plus élevé&nbsp;:
 
 * Dans la vue arborescente, sélectionner un élément en cliquant sur son nom (ou en validant sur ENTER, par exemple "doctitle"
 * Utiliser la commande "Expand selection" (Ctrl+Maj+,) pour afficher les sous-éléments
@@ -152,7 +156,7 @@ Tobi permet de modifier la structure d'un document&nbsp;: il est souhaitable de 
 
 Les commandes permettant de modifier la structure d'un document sont situées dans le menu Text puis Edit structure&nbsp;:
 
-* Delete fragment&nbsp,: supprime l'élément sélectionné
+* Delete fragment&nbsp;: supprime l'élément sélectionné
 * Copy fragment&nbsp;: copie le contenu de l'élément sélectionné dans le presse-papier
 * Cut fragment&nbsp;: supprime le contenu de l'élément sélectionné et le copie dans le presse-papier
 * Paste fragment&nbsp;: colle le fragment de document stocké dans le presse-papier à l'endroit souhaité (en tant que premier sous-élément, en tant que dernier sous-élément, avant la position actuelle à la même profondeur dans l'arboresence, après la position actuelle à la même profondeur de l'arborescence).
@@ -217,7 +221,7 @@ Une fois un projet finalisé, il est nécessaire de l'exporter vers le format d�
 NB&nbsp;: les projets créés à partir de documents XML DTBook ou DAISY peuvent être convertis au format EPUB si le programme DAISY Pipeline 2 est installé. (Des informations sur ce programme sont disponibles dans le guide "Produire un document EPUB avec Save as DAISY/ODT2DAISY et DAISY Pipeline 2".) Pour cela, aller dans le menu File puis DAISY to EPUB 3 (Maj+Ctrl+C) et sélectionner le document à convertir en choisissant un fichier portant l'extension .xml ou .opf. Si le bouton permettant d'ouvrir le module "Project spine" est grisé, c'est que Tobi n'a pas pu trouver le programme DAISY Pipeline2. Pour régler ce problème&nbsp;:
 
 * Aller dans le menu File, puis choisir "DAISY to EPUB 3"&nbsp;;
-* Tobi propose de choisir le chemin du DAISY Pipeline&nbsp,;: il faut choisir le fichier pipeline.bat situé par défaut dans le dossier "C:\Program Files\DAISY Pipeline 2\daisy-pipeline\bin".
+* Tobi propose de choisir le chemin du DAISY Pipeline&nbsp;: il faut choisir le fichier pipeline.bat situé par défaut dans le dossier "C:\Program Files\DAISY Pipeline 2\daisy-pipeline\bin".
 
 
 ## Avant de publier le document

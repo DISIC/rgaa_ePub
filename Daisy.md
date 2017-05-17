@@ -2,24 +2,30 @@
 
 ## Sommaire
 
+<!-- MarkdownTOC depth="4" -->
+
 - [Introduction](#introduction)
-- [Présentation générale de la chaîne proposée](#pr-sentation-g-n-rale-de-la-cha-ne-propos-e)
+- [Présentation générale de la chaîne proposée](#pr%C3%A9sentation-g%C3%A9n%C3%A9rale-de-la-cha%C3%AEne-propos%C3%A9e)
 - [Mise en oeuvre](#mise-en-oeuvre)
-- [Save as DAISY](#save-as-daisy)
-- [Installation](#installation)
-- [ Utilisation](#utilisation)
-- [ Sous Microsoft Word](#sous-microsoft-word)
-- [En ligne de commande](#en-ligne-de-commande)
-- [ODT2DAISY](#odt2daisy)
-- [Installation](#installation)
-- [Utilisation](#utilisation)
-- [Avec LibreOffice Writer](#avec-libreoffice-writer)
-- [En ligne de commande](#en-ligne-de-commande)
-- [DAISY Pipeline 2](#daisy-pipeline-2)
-- [Installation](#installation)
-- [Utilisation](#utilisation)
-- [Ressources externes et références](#ressources-externes-et-r-f-rences)
+	- [Save as DAISY](#save-as-daisy)
+		- [Installation](#installation)
+		- [Utilisation](#utilisation)
+			- [Sous Microsoft Word](#sous-microsoft-word)
+			- [En ligne de commande](#en-ligne-de-commande)
+	- [ODT2DAISY](#odt2daisy)
+		- [Installation](#installation-1)
+		- [Utilisation](#utilisation-1)
+			- [Avec LibreOffice Writer](#avec-libreoffice-writer)
+			- [En ligne de commande](#en-ligne-de-commande-1)
+	- [DAISY Pipeline 2](#daisy-pipeline-2)
+		- [Installation](#installation-2)
+		- [Utilisation](#utilisation-2)
+- [Ressources externes et références](#ressources-externes-et-r%C3%A9f%C3%A9rences)
 - [Licence](#licence)
+
+<!-- /MarkdownTOC -->
+
+
 
 ## Introduction
 Ce guide présente une solution permettant de produire des documents au format EPUB à partir de documents au format OpenXML (Microsoft Word) ou OpenDocument (LibreOffice Writer). Il propose des techniques permettant de produire des documents "à l'unité" grâce à des interfaces graphiques simples, ou par lot en utilisant des outils en ligne de commande.

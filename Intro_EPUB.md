@@ -2,16 +2,21 @@
 
 ## Sommaire
 
+<!-- MarkdownTOC depth="4" -->
+
 - [Introduction](#introduction)
-- [Présentation du format EPUB](#pr-sentation-du-format-epub)
-    - [Introduction](#introduction)
-    - [Usages](#usages)
-    - [Fonctionnalités](#fonctionnalit-s)
-    - [Aspects techniques](#aspects-techniques)
-- [Les avantages d'EPUB sur PDF](#les-avantages-d-epub-sur-pdf)
-- [Vérification de l'accessibilité d'un document EPUB](#v-rification-de-l-accessibilit-d-un-document-epub)
-- [Ressources externes et références](#ressources-externes-et-r-f-rences)
+- [Présentation du format EPUB](#pr%C3%A9sentation-du-format-epub)
+	- [Introduction](#introduction-1)
+	- [Usages](#usages)
+	- [Fonctionnalités](#fonctionnalit%C3%A9s)
+	- [Aspects techniques](#aspects-techniques)
+- [Les avantages d'EPUB sur PDF](#les-avantages-depub-sur-pdf)
+- [Vérification de l'accessibilité d'un document EPUB](#v%C3%A9rification-de-laccessibilit%C3%A9-dun-document-epub)
+- [Ressources externes et références](#ressources-externes-et-r%C3%A9f%C3%A9rences)
 - [Licence](#licence)
+
+<!-- /MarkdownTOC -->
+
 
 ## Introduction
 Ce guide présente brièvement le format EPUB. Il est destiné aux personnes qui souhaitent connaître les principaux usages et fonctionnalités de ce format ainsi que son intérêt dans la perspective de communiquer des documents accessibles.

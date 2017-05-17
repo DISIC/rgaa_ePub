@@ -2,20 +2,26 @@
 
 ## Sommaire
 
+<!-- MarkdownTOC depth="3" -->
+
 - [Introduction](#introduction)
-- [Présentation de oXygen XML](#pr-sentation-de-oxygen-xml)
+- [Présentation de oXygen XML](#pr%C3%A9sentation-de-oxygen-xml)
 - [Installation de oXygen XML](#installation-de-oxygen-xml)
-- [Édition d'un document EPUB&nbsp;: trois vues possibles](#dition-d-un-document-epub-nbsp-trois-vues-possibles)
+- [Édition d'un document EPUB&nbsp;: trois vues possibles](#%C3%89dition-dun-document-epubnbsp-trois-vues-possibles)
 - [Quelques exemples](#quelques-exemples)
-    - [Modifier un paragraphe](#modifier-un-paragraphe)
-    - [Ajouter une alternative à une image](#ajouter-une-alternative-une-image)
-    - [Ajouter un code de langue](#ajouter-un-code-de-langue)
-    - [Fusionner deux éléments](#fusionner-deux-l-ments)
+	- [Modifier un paragraphe](#modifier-un-paragraphe)
+	- [Ajouter une alternative à une image](#ajouter-une-alternative-%C3%A0-une-image)
+	- [Ajouter un code de langue](#ajouter-un-code-de-langue)
+	- [Fusionner deux éléments](#fusionner-deux-%C3%A9l%C3%A9ments)
 - [Enregistrer le document](#enregistrer-le-document)
 - [Licence](#licence)
+
+<!-- /MarkdownTOC -->
+
+
 ## Introduction
 
-Il arrive que des outils d'édition ne proposent pas toutes les fonctionnalités nécessaires pour produire un document EPUB complètement accessible (c'est par exemple le cas de Quark XPress qui ne permet pas d'ajouter une alternative à une image), ou bien que certaines informations soient perdues lors de l'export en EPUB. Ainsi, nous recommandons de réaliser une évaluation de conformité au regard du RGAA avant de mettre le document EPUB à disposition du public. EPUB 3 utilise les langages HTML, CSS et JavaScript&nbsp;: évaluer l'accessibilité d'un tel document consiste ainsi à vérifier l'ensemble des fichiers HTML le constituant en passer en revue les critères du rGAA (niveau AA au moins). Une telle évaluation ne fait pas l'objet de ce guide.
+Il arrive que des outils d'édition ne proposent pas toutes les fonctionnalités nécessaires pour produire un document EPUB complètement accessible (c'est par exemple le cas de Quark XPress qui ne permet pas d'ajouter une alternative à une image), ou bien que certaines informations soient perdues lors de l'export en EPUB. Ainsi, nous recommandons de réaliser une évaluation de conformité au regard du RGAA avant de mettre le document EPUB à disposition du public. EPUB 3 utilise les langages HTML, CSS et JavaScript&nbsp;: évaluer l'accessibilité d'un tel document consiste ainsi à vérifier l'ensemble des fichiers HTML le constituant en passer en revue les critères du RGAA (niveau AA au moins). Une telle évaluation ne fait pas l'objet de ce guide.
 
 Le présent guide fournit des informations et méthodes permettant de corriger d'éventuelles erreurs identifiées lors de l'évaluation d'un document EPUB, avec l'outil oXygen XML Editor. Un fichier EPUB étant une archive ZIP contenant des fichiers HTML, il est également possible de réaliser de telles corrections manuellement, en désarchivant le document EPUB, en éditant les fichiers HTML souhaités et en les réarchivant au format ZIP. Toutefois, oXygen XML Editor offre une interface d'édition facile à utiliser, prend nativement en charge l'ouverture et l'enregistrement au format EPUB et permet de garantir la conformité et la cohérence du document EPUB ainsi corrigé au regard de la grammaire HTML et des spécifications du format.
 
@@ -58,10 +64,10 @@ Il est possible de modifier le contenu d'un paragraphe&nbsp;:
 
 Pour ajouter ou modifier une alternative textuelle à une image, se placer dans la vue Auteur&nbsp;:
 
-* Cliquer gauche sur l'image; elle apparaît en surbrillance dans le panneau Sommaire situé sous le panneau "Navigateur d'archive"&nbsp;;
-* Dans le panneau Sommaire, cliquer droit sur l'image en surbrillance puis choisir "éditer les attributs";&nbsp;;
+* Cliquer gauche sur l'image, elle apparaît en surbrillance dans le panneau Sommaire situé sous le panneau "Navigateur d'archive"&nbsp;;
+* Dans le panneau Sommaire, cliquer droit sur l'image en surbrillance puis choisir "éditer les attributs"&nbsp;;
 * Ajouter ou modifier le contenu de l'attribut "alt" avec le texte souhaité.
-* Éléments du menu contextuel : Ajouter un enfant, insérer avant, insérer après, couper, copier coller coller avant coller après, supprime,r commenter, etc.
+* Éléments du menu contextuel : Ajouter un enfant, insérer avant, insérer après, couper, copier coller, coller avant, coller après, supprimer, commenter, etc.
 
 ### Ajouter un code de langue
 
@@ -72,7 +78,7 @@ Pour ajouter un code de langue à un texte situé dans un paragraphe&nbsp;:
 * Cliquer droit
 * Choisir Refactorisation, puis Encadrer par des balises (Ctrl + E)
 * Choisir "span" dans la liste de balises proposées
-* Le texte apparaît entouré par le balises "span"&nbsp;: le sélectionner
+* Le texte apparaît entouré par les balises "span"&nbsp;: le sélectionner
 * Cliquer droit et choisir "éditer les attributs"
 * Dans le menu déroulant, choisir l'attribut "lang" et lui attribuer la valeur "en" par exemple
 
